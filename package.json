@@ -1,0 +1,19 @@
+{
+  "name": "aleo-wallet-generator",
+  "version": "1.0.0",
+  "description": "Generate aleo wallets and extract pregenerated wallet data",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": ["aleo", "wallet", "generator", "web3"],
+  "author": "fraggdiller",
+  "license": "MIT",
+  "scripts": {
+    "generate": "node src/index.js generate",
+    "data": "node src/index.js data"
+  },
+  "dependencies": {
+    "@aleohq/sdk": "^0.6.5",
+    "@demox-labs/aleo-hd-key": "^0.0.1",
+    "bip39": "^3.1.0"
+  }
+}
